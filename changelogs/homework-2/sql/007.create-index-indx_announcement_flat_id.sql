@@ -1,0 +1,1 @@
+CREATE INDEX indx_announcement_flat_id ON rent.announcement(flat_id);
