@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>   
+<databaseChangeLog
+   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:pro="http://www.liquibase.org/xml/ns/pro"
+   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd
+      http://www.liquibase.org/xml/ns/pro 
+      http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.1.xsd"
+      logicalFilePath="homework-2">  
+
+    <changeSet id="homework-2-create-rent-schema" author="Elena">
+        <sqlFile encoding="utf8" path="./sql/001.create-rent-schema.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="homework-2-create-table-flat" author="Elena">
+        <sqlFile encoding="utf8" path="./sql/002.create-table-flat.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="homework-2-create-table-flatoner" author="Elena">
+        <sqlFile encoding="utf8" path="./sql/003.create-table-flatoner.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="homework-2-create-table-announcement" author="Elena">
+        <sqlFile encoding="utf8" path="./sql/004.create-table-announcement.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="homework-2-create-table-marketing" author="Elena">
+        <sqlFile encoding="utf8" path="./sql/005.create-table-marketing.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="homework-2-create-table-announcement_marketing" author="Elena">
+        <sqlFile encoding="utf8" path="./sql/006.create-table-announcement_marketing.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="homework-2-create-index-indx_announcement_flat_id" author="Elena">
+        <sqlFile encoding="utf8" path="./sql/007.create-index-indx_announcement_flat_id.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="homework-2-create-index-indx_announcement_flat_owner_id" author="Elena">
+        <sqlFile encoding="utf8" path="./sql/008.create-index-indx_announcement_flat_owner_id.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="homework-2-create-indx_flatowner_flat_owner_id" author="Elena">
+        <sqlFile encoding="utf8" path="./sql/009.create-index-indx_flatowner_flat_owner_id.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="homework-2-create-index-indx_flat_flat_id" author="Elena">
+        <sqlFile encoding="utf8" path="./sql/010.create-index-indx_flat_flat_id.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+</databaseChangeLog> 

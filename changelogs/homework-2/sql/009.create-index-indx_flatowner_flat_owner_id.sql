@@ -1,0 +1,1 @@
+CREATE INDEX indx_flatowner_flat_owner_id ON rent.flatowner(flat_owner_id);
