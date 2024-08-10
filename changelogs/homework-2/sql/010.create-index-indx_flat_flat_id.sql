@@ -1,0 +1,1 @@
+CREATE INDEX indx_flat_flat_id ON rent.flat(flat_id);

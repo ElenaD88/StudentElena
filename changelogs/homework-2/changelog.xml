@@ -41,4 +41,12 @@
         <sqlFile encoding="utf8" path="./sql/008.create-index-indx_announcement_flat_owner_id.sql" relativeToChangelogFile="true"/>
     </changeSet>
 
+    <changeSet id="homework-2-create-indx_flatowner_flat_owner_id" author="Elena">
+        <sqlFile encoding="utf8" path="./sql/009.create-index-indx_flatowner_flat_owner_id.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="homework-2-create-index-indx_flat_flat_id" author="Elena">
+        <sqlFile encoding="utf8" path="./sql/010.create-index-indx_flat_flat_id.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
 </databaseChangeLog> 
