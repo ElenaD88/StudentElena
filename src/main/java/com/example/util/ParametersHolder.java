@@ -1,7 +1,7 @@
 package com.example.util;
 
-import com.example.annotation.Component;
-import com.example.annotation.Value;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
 
 @Component
 public class ParametersHolder {

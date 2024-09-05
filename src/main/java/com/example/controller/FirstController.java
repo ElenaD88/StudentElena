@@ -1,15 +1,15 @@
 package com.example.controller;
 
-import com.example.annotation.Autowire;
-import com.example.annotation.Component;
 import com.example.service.ServiceInterface;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 @Component
 public class FirstController {
 
     private final  ServiceInterface serviceInterface;
 
-    @Autowire
+    @Autowired
     public FirstController(ServiceInterface serviceInterface) {
         this.serviceInterface = serviceInterface;
     }
